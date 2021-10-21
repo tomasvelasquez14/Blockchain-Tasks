@@ -1,0 +1,27 @@
+{
+  "name": "ethereum",
+  "version": "1.0.0",
+  "description": "A Dapp in where you can create tasks on the blockchain and interact with those tasks via Metamask",
+  "main": "client/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasvelasquez14/Blockchain-Tasks.git"
+  },
+  "author": "tomasvelasquez14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasvelasquez14/Blockchain-Tasks/issues"
+  },
+  "homepage": "https://github.com/tomasvelasquez14/Blockchain-Tasks#readme",
+  "dependencies": {
+    "@truffle/contract": "^4.3.38",
+    "bootstrap": "^5.1.3",
+    "lite-server": "^2.6.1"
+  }
+}
